@@ -1,0 +1,20 @@
+respawn="BASE";
+respawnDelay=2;
+disabledAI=1;
+aiKills = 1;
+enableItemsDropping = 0;
+enableDebugConsole = 1;
+class Header
+{
+	gameType=COOP;
+	minPlayers=1;
+	maxPlayers=1;
+};
+
+
+#include "taw_vd\GUI.h"
+
+class CfgFunctions
+{
+	#include "taw_vd\CfgFunctions.hpp"
+};
